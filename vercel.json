@@ -1,11 +1,5 @@
 {
-  "builds": [
-    {
-      "src": "webpack.config.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/build/index.html" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
