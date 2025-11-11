@@ -1,0 +1,26 @@
+.newOffers .slick-slide {
+  padding: 0 6px;
+}
+
+.offersMain .slick-prev,
+.newOffers .slick-prev {
+  left: -60px;
+	z-index: 1;
+}
+
+.newOffers .slick-next {
+  right: -40px;
+	z-index: 1;
+}
+
+.offersMain .slick-prev::before,
+.newOffers .slick-prev::before {
+  color: #000;
+  font-size: 40px;
+}
+
+.offersMain .slick-next::before,
+.newOffers .slick-next::before {
+  color: #000;
+  font-size: 40px;
+}

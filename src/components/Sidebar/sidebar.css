@@ -1,0 +1,39 @@
+.bm-overlay {
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.bm-menu-wrap {
+    top: 0 !important;
+    right: 0;
+    height: 100vh !important;
+}
+
+.bm-menu,
+.bm-item {
+    max-width: 100%;
+    /* width: 70vw; */
+    /* height: 100%; */
+    /* border-radius: 10px 0 0 10px */
+}
+
+.bm-item {
+    padding: 30px;
+}
+
+/* .menu-item {
+    margin: 2px 0;
+} */
+
+.menu-item span.dot {
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+    background: #000;
+    display: block;
+    border-radius: 100%;
+}

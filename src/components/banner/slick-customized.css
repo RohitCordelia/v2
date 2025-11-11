@@ -1,0 +1,9 @@
+.primaryCardSlider {
+  margin: 0 1rem;
+}
+.bannerCarouselSlider .slick-arrow.slick-next {
+  left: calc(91% + 90px) !important;
+  /* right: 0 !important; */
+  top: 87% !important;
+  display: none !important;
+}

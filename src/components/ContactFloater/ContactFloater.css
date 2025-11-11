@@ -1,0 +1,20 @@
+.floater {
+  transition: 0.3s all ease-out;
+  box-shadow: 0px 3px 6px #00000029;
+  right: 1.75rem;
+}
+
+.arrow{
+  top: -80px;
+  right: -4px;
+  height: 50px;
+  width: 50px;
+  border-radius: 70px;
+  text-align: center;
+  padding-top: 13px;
+  color: white;
+}
+
+.scrollFurtherContactFloater {
+  bottom: 1.25rem;
+}

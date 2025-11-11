@@ -1,0 +1,215 @@
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 40px;
+  line-height: 1;
+  opacity: .75;
+  display: none;
+  z-index: 0;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000;
+  border-radius: 180px;
+}
+.slick-track {
+  display: flex;
+  gap: 1rem;
+}
+
+.slick-arrow.slick-prev {
+  z-index: 0 !important;
+  left: -20px !important;
+}
+
+.updateGuest .slick-arrow.slick-prev {
+  left: -16px !important;
+}
+
+.slick-arrow.slick-next {
+  z-index: 0 !important;
+  right: -16px !important;
+}
+
+.updateGuest .slick-arrow.slick-next {
+  right: -26px !important;
+}
+
+.updateGuest .slick-slide {
+  width: max-content !important;
+}
+
+@media (max-width: 640px) {
+  .slick-arrow.slick-next {
+    left: calc(100% - -5px) !important;
+  }
+  
+  .slick-arrow.slick-prev {
+    left: -12px !important;
+  }
+}
+
+@media (min-width: 640px) {
+  .updateGuest .slick-list {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .updateGuest .slick-arrow.slick-prev {
+    left: 0px !important;
+  }
+
+  .updateGuest .slick-arrow.slick-next {
+    right: -10px !important;
+  }
+}
+
+
+.slick-prev {
+  left: -45px;
+}
+
+.top-shadow {
+  box-shadow: rgb(0 0 0 / 7%) -3px -4px 5px 0px, rgba(0, 0, 0, 7%) 3px -3px 6px 0px
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px -3px 4px; */
+}
+
+.top-shadow1 {
+  /* box-shadow: -15px 0px 15px -15px rgba(0,0,0,0.1),0px -15px 15px -15px rgba(0,0,0,0.1),15px 0px 15px -15px rgba(0,0,0,0.1); */
+  box-shadow: rgba(0, 0, 0, 0.18) 0px -2px 6px;
+}
+
+.top-shadow2 {
+  box-shadow: rgb(0 0 0 / 7%) -3px -4px 5px 0px, rgba(0, 0, 0, 7%) 3px -3px 6px 0px
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 4px; */
+}
+
+.top-shadow3 {
+  /* box-shadow: -15px 0px 15px -15px rgba(0,0,0,0.1),0px -15px 15px -15px rgba(0,0,0,0.1),15px 0px 15px -15px rgba(0,0,0,0.1); */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px -27px 7px -28px inset; */
+}
+
+.slide-left {
+  -webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.Modal {
+  position: fixed;
+  top: 30%;
+  left: 25%;
+  transition: all 0.3s ease-out;
+}
+
+.modal-open {
+  animation: openModal 0.4s ease-out forwards;
+}
+
+.ModalClosed {
+  animation: closeModal 0.4s ease-in forwards;
+}
+
+@keyframes openModal {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes closeModal {
+  0% {
+    transform: translateY(-0%);
+  }
+
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.shoreEx .glider {
+  overflow: hidden !important;
+}
+
+
+.animated-left {
+  animation-name: left;
+  animation-duration: 1s;
+}
+
+@keyframes left {
+  0% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  51% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.animated-right {
+  animation-name: right;
+  animation-duration: 1s;
+}
+
+@keyframes right {
+  0% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  51% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+/* Custom Scrollbar Styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Background of the scrollbar track */
+  border-radius: 10px;
+  /* Rounded corners */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888;
+  /* Scrollbar thumb color */
+  border-radius: 10px;
+  /* Rounded corners */
+  border: 2px solid #fff;
+  /* Space around the thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+  /* Thumb color on hover */
+}

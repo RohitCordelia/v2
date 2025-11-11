@@ -1,0 +1,16 @@
+.aspect-video-custom{
+    aspect-ratio: 2 / 1.13;
+}
+.react-datepicker-wrapper{
+    width: 100%;
+}
+.react-datepicker-wrapper .react-datepicker__input-container{
+    display: flex;
+    align-items: center;
+}
+.react-datepicker-wrapper .react-datepicker__calendar-icon {
+    right: 0;
+}
+.react-datepicker-wrapper .react-datepicker__view-calendar-icon input {
+    padding: 6px 10px 5px 10px;
+}

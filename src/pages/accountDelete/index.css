@@ -1,0 +1,148 @@
+.txt1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.txt2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button {
+    border: 2px solid none;
+    padding: 10px 40px;
+    color: white;
+    text-align: center;
+    width: 300px;
+    border-radius: 25px;
+    margin: 20px auto;
+    transition: all 0.3s ease 0s;
+    -webkit-box-shadow: 0px 11px 20px -8px rgba(0, 112, 187, 1);
+    -moz-box-shadow: 0px 11px 20px -8px rgba(0, 112, 187, 1);
+    box-shadow: 0px 11px 20px -8px rgba(0, 112, 187, 1);
+}
+
+.button:hover {
+    border: 2px solid none;
+    padding: 10px 40px;
+    background: #0070BB;
+    color: white;
+    text-align: center;
+    width: 300px;
+    border-radius: 25px;
+    margin: 5px auto;
+    transition: all 0.3s ease 0s;
+    -webkit-box-shadow: 0px 19px 34px -8px rgba(0, 112, 187, 1);
+    -moz-box-shadow: 0px 19px 34px -8px rgba(0, 112, 187, 1);
+    box-shadow: 0px 19px 34px -8px rgba(0, 112, 187, 1);
+}
+
+a .button {
+    color: ffffff;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#orbit-system {
+    position: relative;
+    width: 18em;
+    height: 15em;
+    margin: 0px auto;
+}
+
+.system {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    -webkit-transform: rotateX(75deg) rotateY(-30deg);
+    transform: rotateX(75deg) rotateY(-30deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.planet,
+.satellite-orbit,
+.satellite {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.planet {
+    width: 9em;
+    height: 9em;
+    margin-top: -6em;
+    margin-left: -4.5em;
+
+    border-radius: 50%;
+    background-color: none;
+    color: white;
+
+    text-align: center;
+    line-height: 9em;
+
+    -webkit-transform: rotateY(30deg) rotateX(-75deg);
+    transform: rotateY(30deg) rotateX(-75deg);
+}
+
+/*
+  In order to invert the rotation, do the rotate* transforms in reverse order.
+  
+  Here, we rotated the system with rotateX(75deg) rotateY(-30deg), and then we are animating the rotation of the orbit with rotateZ(0-360deg). To reverse that, we need to reverse the last transform applied (rotateZ), then rotateY, then rotateX.
+  
+  The rotateX/Y reversal is easy since it's not animated, so just use its opposite (30deg, -75deg). The rotateZ is trickier since it's animating, but since it's rotating from 0 to 360, we just need to animate the satellite from 360 to 0.
+  */
+@-webkit-keyframes invert-orbit {
+    0% {
+        transform: rotateZ(360deg) rotateY(30deg) rotateX(-75deg);
+    }
+
+    100% {
+        transform: rotateZ(0deg) rotateY(30deg) rotateX(-75deg);
+    }
+}
+
+@keyframes invert-orbit {
+    0% {
+        transform: rotateZ(360deg) rotateY(30deg) rotateX(-75deg);
+    }
+
+    100% {
+        transform: rotateZ(0deg) rotateY(30deg) rotateX(-75deg);
+    }
+}
+
+
+
+
+.box-container{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}

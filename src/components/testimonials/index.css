@@ -1,0 +1,16 @@
+.bg-section{
+    background-image: url("https://images.cordeliacruises.com/cordelia_v2/public/assets/testimonials-background.svg");
+    background-repeat: no-repeat;
+    /* background-size: 100% auto; */
+    background-size: cover;
+    
+}
+
+@media (max-width: 640px) {
+    .bg-section{
+        background-image: url("https://images.cordeliacruises.com/cordelia_v2/public/assets/testimonials-background-mobile.svg");
+        background-repeat: no-repeat;
+        /* background-size: 100% auto; */
+        background-size: cover;
+    }
+}

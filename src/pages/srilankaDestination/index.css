@@ -1,0 +1,16 @@
+.upc-slider .custom-slider .slick-slide div:first-child {
+    height: auto !important;
+}
+
+.custom-slider .slick-track {
+    display: flex !important;
+}
+
+.custom-slider .slick-slide {
+    height: auto;
+    padding-bottom: 2px;
+}
+
+.custom-slider .slick-slide div:first-child {
+    height: 100%;
+}

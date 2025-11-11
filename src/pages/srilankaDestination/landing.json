@@ -1,0 +1,520 @@
+{
+  "jaffna": {
+    "name": "Singapore",
+    "pageCode": "Jaffna, Sri Lanka",
+    "banner": "https://images.cordeliacruises.com/cordelia_v2/public/images/jaffna-journey-new-web-banner.webp",
+    "mobile_banner": "https://images.cordeliacruises.com/cordelia_v2/public/images/jaffna-journey-new-mobile-banner.webp",
+    "info_section": {
+      "title": "Discover Jaffna: The Northern Jewel of Sri Lanka",
+      "sub_title": "Jaffna, the cultural and historical heart of Sri Lanka’s Northern Province, is a captivating destination with a rich heritage that dates back centuries. Steeped in both Buddhist and Hindu traditions, Jaffna is not just known for its temples and vibrant culture, but also for its significance in the ancient Ramayana epic. As you explore this beautiful peninsula, you'll be walking in the footsteps of mythological legends and discovering pristine beaches, fascinating ruins, and unique wildlife."
+    },
+    "bannerImage": {
+      "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/jaffna-full-image-web.webp",
+      "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/jaffna-full-image-mobile.webp"
+    },
+    "short_section": [
+      {
+        "title": "Historical & Cultural Significance",
+        "sub_title": "Jaffna has long been a centre of Hindu culture, and one of the most notable landmarks is the Nallur Kandaswamy Kovil, a magnificent Hindu temple dedicated to Lord Murugan, one of the key deities in the Ramayana. According to legend, Jaffna is believed to have been the location of the King Ravana's kingdom, making it an important site in the Ramayana narrative. The Ravana connection extends to the Ravana's Cave in the nearby Jaffna Peninsula, which is said to have been one of the mythical king's hiding places.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/jaffna-historical-significance-web.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/jaffna-historical-significance-mobile.webp"
+      },
+      {
+        "title": "Wildlife & Dolphin Watching",
+        "sub_title": "Jaffna is known for its dolphin watching opportunities. The waters around the Jaffna Peninsula are famous for sightings of both spinner and bottle-nosed dolphins, making it a must-visit for wildlife enthusiasts. Several boat tours operate in this region, giving visitors a chance to observe these intelligent creatures in their natural habitat.",
+        "image": "http://images.cordeliacruises.com/cordelia_v2/public/images/jaffna-cuisine-web.webp",
+        "mobile_image": "http://images.cordeliacruises.com/cordelia_v2/public/images/jaffna-cuisine-mobile.webp"
+      }
+    ],
+    "backGround_section": {
+      "title": "Unique Sites & Attractions",
+      "sub_title": "Explore the Jaffna Fort, which dates back to the Dutch colonial period and provides panoramic views of the town. The Jaffna Library, one of the largest and most significant libraries in Sri Lanka, also stands as a symbol of the region’s cultural and intellectual heritage.",
+      "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/jaffna-attractions-banner-web.webp",
+      "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/jaffna-attractions-banner-mobile.webp"
+    },
+    "another_section": [],
+    "insider_tips": [
+      {
+        "number": "1",
+        "main_title": "Insider Tips for Jaffna",
+        "image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_website200325.png",
+        "mobile_image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_mobile200325.png",
+        "title": "Best Time for Dolphin Watching",
+        "sub_title": "The best time for dolphin watching in Jaffna is during the early morning hours."
+      },
+      {
+        "number": "2",
+        "title": "Respect Local Traditions",
+        "sub_title": "When visiting sacred sites like the Nallur Kandaswamy Kovil, be sure to dress modestly and remove your shoes before entering the temple, as a sign of respect."
+      },
+      {
+        "number": "3",
+        "title": "Explore with a Guide",
+        "sub_title": "To fully appreciate the rich history and Ramayana connections, consider hiring a local guide who can offer deeper insights into the area's cultural and mythological significance."
+      }
+    ]
+  },
+  "hambantota": {
+    "name": "Hambantota",
+    "pageCode": "Hambantota, Sri Lanka",
+    "banner": "https://images.cordeliacruises.com/cordelia_v2/public/images/National+Parks+1920x580.webp",
+    "mobile_banner": "https://images.cordeliacruises.com/cordelia_v2/public/images/National-Parks-Mobile-Banner_562x554.webp",
+    "info_section": {
+      "title": "Explore Hambantota: The Gateway to the South",
+      "sub_title": "Hambantota, located on Sri Lanka's southern coast, is a hidden gem offering a combination of natural beauty, historical significance, and cultural richness. Known for its pristine beaches and abundant wildlife, Hambantota is an excellent destination for those looking to escape the bustle of more tourist-heavy areas while immersing themselves in Sri Lanka's vibrant traditions."
+    },
+    "bannerImage": {
+      "image": "http://images.cordeliacruises.com/cordelia_v2/public/images/hambantota-full-image-web.webp",
+      "mobile_image": "http://images.cordeliacruises.com/cordelia_v2/public/images/hambantota-full-image-mobile.webp"
+    },
+    "short_section": [
+      {
+        "title": "Ramayana & Legendary Connections",
+        "sub_title": "In the Ramayana epic, Hambantota is believed to be one of the places linked to the great war between Lord Rama and Ravana. According to legend, it was in Hambantota that Ravana’s brother, Vibhishana, defected to Rama’s side, making it an important site in the ancient mythological struggle. Visitors can explore the Kataragama Temple, a significant Buddhist and Hindu pilgrimage site where it is said Lord Rama offered prayers to Lord Shiva after his victory over Ravana.",
+        "image": "http://images.cordeliacruises.com/cordelia_v2/public/images/hambantota-ramayan-significance-web.webp",
+        "mobile_image": "http://images.cordeliacruises.com/cordelia_v2/public/images/hambantota-ramayan-significance-mobile.webp"
+      },
+      {
+        "title": "Wildlife & Nature",
+        "sub_title": "The region is also home to some of Sri Lanka’s best wildlife experiences. Yala National Park, located near Hambantota, is famous for its diverse wildlife, including leopards, elephants, and a wide variety of birds. For those interested in marine life, Rekawa Beach is known for turtle watching, where several species of sea turtles come ashore to lay their eggs.",
+        "image": "http://images.cordeliacruises.com/cordelia_v2/public/images/hambantota-cuisine-web.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/hambantota-cuisine-mobile.webp"
+      }
+    ],
+    "backGround_section": {
+      "title": "Unspoiled Beaches",
+      "sub_title": "Hambantota’s beaches offer an idyllic retreat. The Weligama Bay is perfect for water sports, while Tangalle Beach provides a quiet escape with clear waters and golden sands, ideal for relaxation and enjoying the coastal beauty of Sri Lanka.",
+      "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/hambantota-beaches-banner-web.webp",
+      "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/hambantota-beaches-banner-mobile.webp"
+    },
+    "another_section": [],
+    "insider_tips": [
+      {
+        "number": "1",
+        "main_title": "Insider Tips for Hambantota",
+        "image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_website200325.png",
+        "mobile_image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_mobile200325.png",
+        "title": "Best Time for Wildlife Viewing",
+        "sub_title": "For the best chances of spotting wildlife, visit Yala National Park during the early morning or late afternoon hours, when animals are most active."
+      },
+      {
+        "number": "2",
+        "title": "Stay Hydrated",
+        "sub_title": "The southern coast can get very hot, so carry plenty of water and wear sun protection, especially if you're heading to the national parks or beaches."
+      },
+      {
+        "number": "3",
+        "title": "Ethical Wildlife Experiences",
+        "sub_title": "If visiting Rekawa Beach for turtle watching, make sure to follow the guidelines provided by local conservation efforts to ensure the safety of the turtles."
+      }
+    ]
+  },
+  "trincomalee": {
+    "name": "Trincomalee",
+    "pageCode": "Trincomalee, Sri Lanka",
+    "banner": "http://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-giants-new-web-banner.webp",
+    "mobile_banner": "http://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-giants-new-mobile-banner.webp",
+    "info_section": {
+      "title": "Trincomalee: A Coastal Gem with Rich History",
+      "sub_title": "Trincomalee, on Sri Lanka’s northeastern coast, is one of the island’s most historically significant and naturally beautiful cities. Famous for its stunning natural harbors, pristine beaches, and vibrant cultural heritage, Trincomalee offers travelers a unique blend of ancient history and breath-taking landscapes."
+    },
+    "bannerImage": {
+      "image": "http://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-full-image-web.webp",
+      "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-full-image-mobile.webp"
+    },
+    "short_section": [
+      {
+        "title": "Ramayana Significance",
+        "sub_title": "Legends have that modern day Sigiriya rock is the place where the Ravana had his palace and is the same place where Sita was abducted. Trincomalee holds a deep connection to the Ramayana. The Koneswaram Temple, located on a cliff overlooking the sea, is one of the oldest and most revered Hindu temples in Sri Lanka. The temple is dedicated to Lord Shiva, and it is believed that it was here that Lord Rama prayed for divine help before battling Ravana to rescue his wife, Sita.",
+        "image": "http://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-ramayan-significance-web.webp",
+        "mobile_image": "http://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-ramayan-significance-mobile.webp"
+      },
+      {
+        "title": "Delicious Cuisine",
+        "sub_title": "Trincomalee's cuisine is a delightful mix of Sri Lankan and Tamil influences, with fresh seafood being a major highlight. Try the seafood curry, fish ambul thiyal (sour fish curry), and hoppers (crispy pancakes) served with spicy sambols. Don't miss Coconut Roti paired with lunu miris (spicy chili paste), a local favourite.",
+        "image": "http://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-cuisine-web.webp",
+        "mobile_image": "http://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-cuisine-mobile.webp"
+      }
+    ],
+    "backGround_section": {
+      "title": "Wildlife and Natural Wonders",
+      "sub_title": "Trincomalee is also home to some of the most beautiful beaches in Sri Lanka. Nilaveli Beach and Uppuveli Beach are perfect for swimming, snorkelling, and diving, with vibrant coral reefs and clear waters. Pigeon Island National Park, just off the coast, is a protected marine sanctuary ideal for snorkelling, where you can see colourful fish and turtles swimming among the coral.",
+      "image": "http://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-wildlife-banner-web.webp",
+      "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-wildlife-banner-mobile.webp"
+    },
+    "another_section": [
+      {
+        "title": "Historical Sites & Cultural Attractions",
+        "sub_title": "In addition to the Koneswaram Temple, the Fort Frederick built by the Portuguese during the colonial period is a must-visit for history lovers. Trincomalee’s strategic importance throughout history is reflected in the Dutch Bay, where you can explore remnants of old colonial forts and battlefields.",
+        "image": "http://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-cultural-attraction-web.webp",
+        "mobile_image": "http://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-cultural-attraction-mobile.webp"
+      },
+      {
+        "title": "Whale Watching in Trincomalee",
+        "sub_title": "Trincomalee, on Sri Lanka's north-eastern coast, is a prime spot for whale watching from May to October. The area is known for sightings of sperm whales, blue whales, and dolphins. Early morning offer a chance to see these majestic creatures in calm, picturesque waters, making it a must-visit destination for marine life enthusiasts.",
+        "image": "http://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-whale-watching-web.webp",
+        "mobile_image": "http://images.cordeliacruises.com/cordelia_v2/public/images/trincomalee-whale-watching-mobile.webp"
+      }
+    ],
+    "insider_tips": [
+      {
+        "number": "1",
+        "main_title": "Insider Tips for Trincomalee",
+        "image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_website200325.png",
+        "mobile_image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_mobile200325.png",
+        "title": "Explore Local Markets",
+        "sub_title": "Visit the local markets in Trincomalee to experience the vibrant local culture. You’ll find fresh seafood, spices, and unique souvenirs. It’s also a great opportunity to sample local snacks like kottu roti or pittu."
+      },
+      {
+        "number": "2",
+        "title": "Dress for Temple Visits",
+        "sub_title": "When visiting temples like Koneswaram or any sacred sites, wear modest clothing and remove your shoes before entering, as a sign of respect for local customs."
+      },
+      {
+        "number": "3",
+        "title": "Pack for Snorkelling",
+        "sub_title": "If planning to visit Pigeon Island, bring your snorkelling gear or rent equipment locally to explore the vibrant coral reefs and marine life."
+      }
+    ]
+  },
+  "singapore": {
+    "name": "Singapore",
+    "pageCode": "Singapore",
+    "banner": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore Desktop 1920x580.webp",
+    "mobile_banner": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore Mobile 562x554.webp",
+    "info_section": {
+      "title": "Discover Singapore: A Modern Marvel with Cultural Richness",
+      "sub_title": "Singapore, a vibrant island city-state, seamlessly blends futuristic architecture with rich cultural heritage. Known for its cleanliness, innovation, and diversity, Singapore offers an exciting mix of experiences, from world-class attractions to historic neighbourhoods, modern skyscrapers, and lush green spaces. Whether you're exploring the iconic Marina Bay Sands or wandering through colourful streets, Singapore promises an unforgettable adventure that captivates all who visit."
+    },
+    "bannerImage": {
+      "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore  Discover A Modern Marvel with Cultural Richness 1920x800.webp",
+      "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore Discover A Modern Marvel with Cultural Richness 562x353.webp"
+    },
+    "short_section": [
+      {
+        "title": "Iconic Landmarks & Stunning Views",
+        "sub_title": "Singapore’s skyline is defined by impressive landmarks such as the Marina Bay Sands, an integrated resort with a rooftop infinity pool offering panoramic views of the city. Another must-see is the Gardens by the Bay, a futuristic park with the striking Supertree Grove and the lush Flower Dome.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore Iconic Landmarks & Stunning Views (2) 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore Iconic Landmarks & Stunning Views (2) 514x413.webp"
+      },
+      {
+        "title": "Cultural Exploration & Heritage",
+        "sub_title": "Singapore is a melting pot of cultures, and this is beautifully reflected in its heritage districts. Chinatown is a must-visit, where you can explore temples, markets, and historical sites like the Buddha Tooth Relic Temple. In Little India, vibrant streets, colourful temples, and aromatic spice shops immerse you in the flavours and traditions of Indian culture.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore Cultural Exploration & Heritage (3) 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore Cultural Exploration & Heritage (3) 514x413.webp"
+      }
+    ],
+    "backGround_section": {
+      "title": "World-Class Shopping & Dining",
+      "sub_title": "Singapore is a paradise for shoppers, with luxury malls like ION Orchard and The Shoppes at Marina Bay Sands offering everything from high-end brands to unique local designers. Bugis Street and Chinatown markets are perfect for those looking for souvenirs and street fashion. Foodies will find themselves in heaven with the city’s diverse culinary offerings. Whether it’s dining at Michelin-starred restaurants or enjoying mouth-watering street food at hawker centers like Maxwell Food Centre or Lau Pa Sat, Singapore offers something for every palate.",
+      "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore World-Class Shopping & Dining 1920x500.webp",
+      "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore World-Class Shopping & Dining 562x472.webp"
+    },
+    "another_section": [
+      {
+        "title": "Thrilling Attractions & Family Fun",
+        "sub_title": "Singapore is home to some of the world’s most exciting attractions. Visit the Singapore Zoo and Night Safari, where you can observe animals in naturalistic habitats, or head to Sentosa Island, a resort destination with thrilling rides at Universal Studios Singapore, the S.E.A. Aquarium, and relaxing beaches. For a dose of history, explore the National Museum of Singapore or visit Haw Par Villa, an eccentric theme park based on Chinese mythology. ",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore Thrilling Attractions & Family Fun 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore Thrilling Attractions & Family Fun 514x413.webp"
+      },
+      {
+        "title": "Ethical Wildlife & Nature Conservation",
+        "sub_title": "Singapore is known for its commitment to sustainability and wildlife conservation. Visit the Wildlife Reserves Singapore, home to the Singapore Zoo, River Safari, and Night Safari, all of which focus on preserving endangered species and educating visitors about the importance of biodiversity. Gardens by the Bay, with its sustainable design, is another example of Singapore’s dedication to preserving nature while embracing modernity.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore Ethical Wildlife & Nature Conservation 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Singapore Ethical Wildlife & Nature Conservation 514x413.webp"
+      }
+    ],
+    "insider_tips": [
+      {
+        "number": "1",
+        "main_title": "Insider Tips for Singapore",
+        "image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_website200325.png",
+        "mobile_image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_mobile200325.png",
+        "title": "Public Transportation",
+        "sub_title": "Singapore has one of the world’s best public transport systems. The MRT (Mass Rapid Transit) and buses are efficient and easy to use, making it simple to explore the city."
+      },
+      {
+        "number": "2",
+        "title": "Stay Hydrated",
+        "sub_title": "Singapore is hot and humid year-round, so make sure to stay hydrated while exploring the city. Many public areas provide free water stations."
+      },
+      {
+        "number": "3",
+        "title": "Respect Local Customs",
+        "sub_title": "While Singapore is known for being modern and multicultural, it's also a place where traditions and respect for rules are valued. Always be mindful of local customs, including proper etiquette in temples and respectful behaviour in public spaces."
+      }
+    ]
+  },
+  "phuket": {
+    "name": "Phuket",
+    "pageCode": "Phuket, Thailand",
+    "banner": "https://images.cordeliacruises.com/cordelia_v2/public/images/Thailand Desktop 1920x580.webp",
+    "mobile_banner": "https://images.cordeliacruises.com/cordelia_v2/public/images/Thailand Mobile 562 x 554 px.webp",
+    "info_section": {
+      "title": "Discover Phuket: Paradise Awaits",
+      "sub_title": "Phuket, Thailand's premier island destination, is a true tropical gem offering a unique blend of breathtaking landscapes, vibrant culture, and endless adventure. Whether you're seeking the serene beauty of hidden beaches, vibrant nightlife, or a deeper connection with nature, Phuket has it all. James Bond Island a popular attraction known for its stunning limestone cliffs and dramatic landscapes draws it romantic connection to reminiscence of the visuals from the iconic film “Kaho Naa Pyaar Hai” a perfect photo spot for love birds."
+    },
+    "bannerImage": {
+      "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Phuket Full Image 1920x800.webp",
+      "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Discover Phuket Paradise Awaits 562x353.webp"
+    },
+    "short_section": [
+      {
+        "title": "Idyllic Beaches & Stunning Waters",
+        "sub_title": "Phuket's coastline is a dream come true for beach lovers. From the lively shores of Patong to the peaceful, powdery sands of Kata Noi, there’s a beach for every type of traveller. The Andaman Sea, with its crystal-clear waters, beckons visitors to dive in and explore the underwater world. Take a traditional long-tail boat ride to discover hidden gems like Koh Phi Phi or Koh Khao Phing Kan (better known as 'James Bond Island'), where dramatic cliffs and emerald waters set the perfect scene.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Phuket Idyllic Beaches & Stunning Waters 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Phuket Idyllic Beaches & Stunning Waters 514x413.webp"
+      },
+      {
+        "title": "Tropical Island Hopping",
+        "sub_title": "The adventure doesn’t stop at Phuket’s beaches. Hop on a long-tail boat for an unforgettable journey to nearby islands like Koh Poda, Koh Phi Phi, and the stunning Phang Nga Bay. Each island offers its own unique charm, whether it’s a quiet retreat or a lively beach party scene. Explore the picturesque surroundings, snorkel in vibrant coral reefs, or simply relax by the beach with a refreshing drink in hand.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Phuket Tropical Island Hopping 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Phuket Tropical Island Hopping 514x413.webp"
+      }
+    ],
+    "backGround_section": {
+      "title": "Cultural & Scenic Wonders",
+      "sub_title": "Beyond the beaches, Phuket is rich with cultural landmarks and natural beauty. Visit the Big Buddha, a monumental landmark offering sweeping views of the island, or take a stroll through the Old Phuket Town, where charming colonial architecture and vibrant streets await. For a deeper connection to the island’s spiritual side, explore the numerous temples dotted across the island.",
+      "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Phuket Cultural & Scenic Wonders 1920x500.webp",
+      "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Phuket Cultural & Scenic Wonders 562x472.webp"
+    },
+    "another_section": [
+      {
+        "title": "Explore the Underwater World",
+        "sub_title": "For diving enthusiasts, Phuket is one of the world’s most affordable and accessible spots for SCUBA diving. Head to Koh Tao or other local diving hubs to explore vibrant coral reefs and encounter marine life in its natural habitat. Not ready for diving? Snorkeling along the coastline also offers stunning underwater vistas.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Phuket Explore the Underwater World 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Phuket Explore the Underwater World 514x413.webp"
+      },
+      {
+        "title": "Savor Phuket’s Delicious Cuisine",
+        "sub_title": "Phuket’s street food scene is a gastronomic adventure of its own. Indulge in flavourful dishes such as Pad Thai, green curry, and spicy Som Tam papaya salad. The island’s coastal location also means an abundance of fresh seafood, perfect for a feast on the beach.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Savor Phukets Delicious Cuisine 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Phuket Savor Delicious Cuisine 514x413.webp"
+      },
+      {
+        "title": "Adventure on Land and Sea",
+        "sub_title": "Whether you’re zip-lining through lush jungles, rafting down rivers, or enjoying a relaxing boat ride, Phuket offers plenty of outdoor activities. The island’s rugged landscape is perfect for hiking and exploring, while its tranquil waters are ideal for kayaking and sailing. Phuket is also home to exciting water parks, like Splash Jungle Water Park & Andamanda Phuket which boasts thrilling water slides.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Adventure on Land and Sea 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Adventure on Land and Sea 514x413.webp"
+      },
+      {
+        "title": "Immerse Yourself in Local Culture",
+        "sub_title": "Phuket is not just a place to relax but also an opportunity to learn and experience Thai culture. Visit the Gibbon Rehabilitation Center to support the conservation of wildlife or take a trip to the Phuket Elephant Sanctuary to interact with these gentle giants in an ethical environment.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Immerse Yourself in Local Culture 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Immerse Yourself in Local Culture 514x413.webp"
+      },
+      {
+        "title": "Thriving Nightlife & Beach Parties",
+        "sub_title": "Phuket’s nightlife is vibrant and endless, especially in Patong Beach. From beach clubs and rooftop bars to energetic nightclubs and fire shows, the island offers a non-stop party scene, perfect for dancing or relaxing with cocktails by the sea.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Thriving Nightlife & Beach Parties 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Thriving Nightlife & Beach Parties 514x413.webp"
+      }
+    ],
+    "insider_tips": [
+      {
+        "number": "1",
+        "main_title": "Insider Tips for Your Phuket Adventure",
+        "image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_website200325.png",
+        "mobile_image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_mobile200325.png",
+        "title": "Respect Local Customs",
+        "sub_title": "Thai culture is built on respect, so always remember to remove your shoes when entering temples or local homes."
+      },
+      {
+        "number": "2",
+        "title": "Best Times to Drink",
+        "sub_title": "In Thailand, alcohol service is restricted before 11 a.m. and between 2-5 p.m., so plan your happy hour accordingly."
+      },
+      {
+        "number": "3",
+        "title": "Learn Basic Thai",
+        "sub_title": "While English is widely spoken, learning a few basic Thai phrases like 'Aroi'(delicious) will surely earn you smiles from the locals."
+      }
+    ]
+  },
+  "langkawi": {
+    "name": "Langkawi",
+    "pageCode": "Langkawi",
+    "banner": "https://images.cordeliacruises.com/cordelia_v2/public/images/Malayasia Desktop 1920x 580.webp",
+    "mobile_banner": "https://images.cordeliacruises.com/cordelia_v2/public/images/Malayasia Mobile 562 x 554 px.webp",
+    "info_section": {
+      "title": "Discover Langkawi: Malaysia’s Jewel of the Andaman",
+      "sub_title": "Langkawi, Malaysia's enchanting archipelago, is a stunning destination that offers a perfect blend of beautiful beaches, lush rainforests, and rich cultural heritage. Whether you're looking to unwind on serene beaches, explore nature, or experience vibrant nightlife, Langkawi has something for every traveller. Whether you're exploring modern malls or local markets, Langkawi offers a great mix of tax-free shopping and unique souvenirs."
+    },
+    "bannerImage": {
+      "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Langkawi Full Image 1920x800.webp",
+      "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Discover Langkawi Malaysia Jewel of the Andaman 562x353.webp"
+    },
+    "short_section": [
+      {
+        "title": "Pristine Beaches & Crystal-Clear Waters",
+        "sub_title": "Langkawi is home to some of Malaysia’s most breath-taking beaches. Pantai Cenang is the island’s most popular beach, offering water sports, beach bars, and a lively atmosphere. For a more tranquil escape, visit Pantai Tengah or the quiet Tanjung Rhu Beach, where you can bask in the sun or take a peaceful swim in the crystal-clear waters.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Langkawi Pristine Beaches & Crystal-Clear Waters 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Langkawi - Pristine Beaches & Crystal-Clear Waters 514x413.webp"
+      },
+      {
+        "title": "Island Hopping & Scenic Views",
+        "sub_title": "Langkawi’s islands are ideal for exploring by boat. Hop on a guided island-hopping tour to discover hidden gems like the pristine Pulau Dayang Bunting and the unique Pulau Beras Basah. Enjoy snorkelling in the turquoise waters, spot exotic wildlife, or simply enjoy the quiet beauty of these lesser-known islands",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Langkawi Island Hopping & Scenic Views 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Lnagkawi Island Hopping & Scenic Views 514x413.webp"
+      }
+    ],
+    "backGround_section": {
+      "title": "Immerse in Nature & Wildlife",
+      "sub_title": "Langkawi is also a haven for nature lovers. Take a trek through the Langkawi UNESCO Global Geopark, where you’ll find ancient rainforests, mangroves, and limestone formations. For an up-close encounter with wildlife, visit the Langkawi Wildlife Park or take a boat tour through the mangroves to spot local species like otters, monkeys, and exotic birds. The island’s rich biodiversity makes it a nature lover’s paradise.",
+      "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Langkawi Immerse in Nature & Wildlife 1920x500.webp",
+      "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Langkawi Immerse in Nature & Wildlife 562x472.webp"
+    },
+    "another_section": [
+      {
+        "title": "Savor Langkawi’s Culinary Delights",
+        "sub_title": "Langkawi's food scene is as diverse as its culture. From fresh seafood to traditional Malay dishes, the island offers a wide range of culinary delights. Savor local favorites like Nasi Lemak, Satay, and Laksa, or indulge in fresh grilled fish and seafood at one of the beachfront restaurants. The night markets offer an authentic taste of local street food, perfect for those wanting to sample a variety of dishes.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Langkawi Savor Culinary Delights 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Langkawi Savor Culinary Delights 514x413.webp"
+      },
+      {
+        "title": "Cultural Exploration",
+        "sub_title": "Langkawi is steeped in history and culture. Visit the Langkawi Cable Car and Sky Bridge, or explore traditional Malay villages and temples. The island also boasts landmarks like the iconic Eagle Square, where you can learn about Langkawi’s history and its namesake—the eagle. Discover the unique mix of Malay, Thai, and Chinese influences that have shaped the island’s culture and heritage.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Langkawi Cultural Exploration 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Langkawi Cultural Exploration 514x413.webp"
+      }
+    ],
+    "insider_tips": [
+      {
+        "number": "1",
+        "main_title": "Insider Tips for Langkawi",
+        "image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_website200325.png",
+        "mobile_image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_mobile200325.png",
+        "title": "Respect Local Customs",
+        "sub_title": "While Langkawi is a popular tourist destination, always be respectful of local customs and dress modestly, especially when visiting religious sites."
+      },
+      {
+        "number": "2",
+        "title": "Stay Hydrated",
+        "sub_title": "Drink plenty of water throughout the day, especially during outdoor activities, to keep your energy up and prevent dehydration."
+      },
+      {
+        "number": "3",
+        "title": "Tipping",
+        "sub_title": "While not mandatory, a small tip is appreciated for good service in restaurants or at hotels."
+      }
+    ]
+  },
+  "kuala_lumpur": {
+    "name": "Kuala Lumpur",
+    "pageCode": "Kuala Lumpur, Malaysia",
+    "banner": "https://images.cordeliacruises.com/cordelia_v2/public/images/Malayasia Desktop 1920x 580.webp",
+    "mobile_banner": "https://images.cordeliacruises.com/cordelia_v2/public/images/Malayasia Mobile 562 x 554 px.webp",
+    "info_section": {
+      "title": "Discover Kuala Lumpur: Malaysia's Urban Gem",
+      "sub_title": "Kuala Lumpur, Malaysia’s vibrant capital, is a bustling metropolis where modern skyscrapers meet rich cultural heritage. This dynamic city offers a perfect blend of high-tech sophistication and traditional charm, making it a must-visit for travelers seeking a diverse and exciting experience. From world-class shopping malls to historical landmarks, Kuala Lumpur promises an adventure filled with excitement, culture, and culinary delights."
+    },
+    "bannerImage": {
+      "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Kuala Lumpur Full Image 1920x800.webp",
+      "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Discover Kuala Lumpur Malaysias Urban Gem 562x353.webp"
+    },
+    "short_section": [
+      {
+        "title": "Iconic Landmarks & Stunning Views",
+        "sub_title": "Kuala Lumpur’s skyline is dominated by the iconic Petronas Twin Towers, once the tallest buildings in the world. Take a trip to the observation deck for breath-taking panoramic views of the city. Another must-visit is the Batu Caves, a series of limestone caves home to a massive statue of Lord Murugan and colorful temples.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Kuala Lumpur Iconic Landmarks & Stunning Views 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Kuala Lumpur Iconic Landmarks & Stunning Views 514x413.webp"
+      },
+      {
+        "title": "Cultural Exploration & Heritage",
+        "sub_title": "Kuala Lumpur is a vibrant tapestry of diverse cultures and traditions. Explore the historical heart of the city with landmarks like the Sultan Abdul Samad Building and Merdeka Square, which offer glimpses into Malaysia’s colonial past. Dive deeper into the city’s multicultural influences by visiting the Batu Caves, Masjid Negara (National Mosque), and the Sri Mahamariamman Temple, each showcasing the unique blend of Islamic, Hindu, and Buddhist cultures.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Kuala Lumpur Cultural Exploration & Heritage 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Kuala Lumpur Cultural Exploration & Heritage 514x413.webp"
+      }
+    ],
+    "backGround_section": {
+      "title": "Shopping & Modern City Life",
+      "sub_title": "Kuala Lumpur is a shopper's paradise, offering everything from high-end malls to bustling street markets. Head to Bukit Bintang, the city’s shopping district, where you’ll find luxury brands at Pavilion Kuala Lumpur and Starhill Gallery, or hunt for bargains in the vibrant Jalan Alor night market. For a more traditional experience, visit the Petaling Street Market in Chinatown, where you can pick up local products and enjoy street food.",
+      "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Kualalumpur Shopping & Modern City Life 1920x500.webp",
+      "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Kuala Lumpur Shopping & Modern City Life  562x472.webp"
+    },
+    "another_section": [
+      {
+        "title": "Culinary Delights: A Feast for the Senses",
+        "sub_title": "Kuala Lumpur’s food scene is a reflection of its multicultural influences. From mouth-watering street food to sophisticated dining, the city offers a diverse range of flavours. Don't miss trying local favourites like Nasi Lemak, Malaysia's national dish, or Char Kway Teow, a stir-fried noodle dish. For something sweet, indulge in Cendol, a dessert made with coconut milk, palm sugar, and shaved ice. Head to Jalan Alor for a food street experience or dine in high-end restaurants with views of the city skyline.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Kuala Lumpur Culinary Delights A Feast for the Senses 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Kuala Lumpur Culinary Delights A Feast for the Senses 514x413.webp"
+      },
+      {
+        "title": "Adventure & Outdoor Activities",
+        "sub_title": "For those seeking adventure, Kuala Lumpur offers a variety of outdoor activities. Take a day trip to the Taman Negara National Park, one of the world’s oldest rainforests, where you can explore jungles, go jungle trekking, or take a river cruise. If you're interested in wildlife, visit the Kuala Lumpur Bird Park or the Zoo Negara, home to over 200 species of animals.",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Kuala Lumpur Adventure & Outdoor Activities 710x570.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Kuala Lumpur Adventure & Outdoor Activities 514x413.webp"
+      }
+    ],
+    "insider_tips": [
+      {
+        "number": "1",
+        "main_title": "Insider Tips for Kuala Lumpur",
+        "image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_website200325.png",
+        "mobile_image": "https://cordelia-images-prod.s3.ap-south-1.amazonaws.com/cordelia_v2/public/images/bg_mobile200325.png",
+        "title": "Public Transportation",
+        "sub_title": "Kuala Lumpur’s public transport system, including the Monorail, and buses, is efficient and easy to navigate, making it simple to get around the city."
+      },
+      {
+        "number": "2",
+        "title": "Dress Modestly",
+        "sub_title": "Malaysia is a predominantly Muslim country, so it’s important to dress modestly, especially when visiting religious sites like the National Mosque or Batu Caves."
+      },
+      {
+        "number": "3",
+        "title": "Street Food Etiquette",
+        "sub_title": "When enjoying street food, try to eat where the locals eat, as the best dishes are often found at the busiest stalls. Don’t be afraid to dive into local specialties like Roti Canai and Satay."
+      }
+    ]
+  },
+  "destination": {
+    "title": "Related Destinations",
+    "sub_title": "Temples, beaches, and spicy thrills await on your next cruise!",
+    "set_1": [
+      {
+        "name": "Jaffna",
+        "image": "http://images.cordeliacruises.com/cordelia_v2/public/images/related-destination-jaffna-card-web.webp",
+        "mobile_image": "http://images.cordeliacruises.com/cordelia_v2/public/images/related-destination-jaffna-card-mobile.webp",
+        "link": "/srilanka/jaffna"
+      },
+      {
+        "name": "Hambantota",
+        "image": "http://images.cordeliacruises.com/cordelia_v2/public/images/related-destination-hambantota-card-web.webp",
+        "mobile_image": "http://images.cordeliacruises.com/cordelia_v2/public/images/related-destination-hambantota-card-mobile.webp",
+        "link": "/srilanka/hambantota"
+      },
+      {
+        "name": "Trincomalee",
+        "image": "http://images.cordeliacruises.com/cordelia_v2/public/images/related-destination-trincomalee-card-web.webp",
+        "mobile_image": "http://images.cordeliacruises.com/cordelia_v2/public/images/related-destination-trincomalee-card-mobile.webp",
+        "link": "/srilanka/trincomalee"
+      }
+    ],
+    "set_2": [
+      {
+        "name": "Phuket",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Phuket 710x400.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Phuket  514x291.webp",
+        "link": "/thailand/phuket"
+      },
+      {
+        "name": "Kuala Lumpur",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Kuala Lumpur 710x400.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Kuala Lumpur 514x291.webp",
+        "link": "/malaysia/kuala-lumpur"
+      },
+      {
+        "name": "Singapore",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Discover Singapore 710x400.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Discover Singapore 514x291.webp",
+        "link": "/singapore"
+      },
+      {
+        "name": "Langkawi",
+        "image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Langkawi 710x400.webp",
+        "mobile_image": "https://images.cordeliacruises.com/cordelia_v2/public/images/Langkawi 514x291.webp",
+        "link": "/malaysia/langkawi"
+      }
+    ]
+  }
+}

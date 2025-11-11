@@ -1,0 +1,92 @@
+{
+  "Banner": {
+    "title": "Destination Of Your Dreams",
+    "subTitle": "Sail \"The Love Boat\" for the most romantic moment at sea",
+    "image":"",
+    "mobileImage":""
+  },
+  "UpcomingCruises": [
+    {
+      "date":"Fri 14 Oct",
+      "days":"2",
+      "destination":"Mumbai > Goa > Mumbai",
+      "price":"35,680"
+    },
+    {
+      "date":"Fri 14 Oct",
+      "days":"2",
+      "destination":"Mumbai > Goa > Mumbai",
+      "price":"35,680"
+    },
+    {
+      "date":"Fri 14 Oct",
+      "days":"2",
+      "destination":"Mumbai > Goa > Mumbai",
+      "price":"35,680"
+    },
+    {
+      "date":"Fri 14 Oct",
+      "days":"2",
+      "destination":"Mumbai > Goa > Mumbai",
+      "price":"35,680"
+    },
+    {
+      "date":"Fri 14 Oct",
+      "days":"2",
+      "destination":"Mumbai > Goa > Mumbai",
+      "price":"35,680"
+    }
+  ],
+  "Testimonials": [
+    {
+      "comment":"Recently went on a voyage with Cordelia from Chennai to Vishakapatnam with a family of forty. Overall, the experience was awesome and the hospitality.",
+      "user": "Kiran Gorantla",
+      "location": "Mumbai, India",
+      "image": "user_image.webp"
+    },
+    {
+      "comment":"Amazing! Can't even justify the experience aboard this city on the sea! You will find everything that you could possibly need. Good music plays round the clock.",
+      "user": "Pooja Nair",
+      "location": "Bangalore, India",
+      "image": "user_image.webp"
+    }
+  ],
+  "InfoCards": {
+    "OnboardingExperience": {
+      "title": "Onboard Experiences",
+      "subTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.",
+      "img": {
+        "url": "/assets/images/homepage/infoSection/onboarding_experience.png",
+        "alt": "Onboard Experiences"
+      }
+    },
+    "FoodBeverages": {
+      "title": "Food & Beverages",
+      "subTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.",
+      "img": {
+        "url": "/assets/images/homepage/infoSection/food_beverages.png",
+        "alt": "Food & Beverages"
+      }
+    },
+    "Accomodation": {
+      "title": "Accomodation",
+      "subTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.",
+      "img": {
+        "url": "/assets/images/homepage/infoSection/accomadation.png",
+        "alt": "Accomodation"
+      }
+    },
+    "Destinations": {
+      "title": "Destinations",
+      "subTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.",
+      "img": {
+        "url": "/assets/images/homepage/infoSection/destination.png",
+        "alt": "Destinations"
+      }
+    }
+  },
+  "SafetyProtocol": {
+    "title": "Safety Protocols",
+    "subTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry."
+  }
+}

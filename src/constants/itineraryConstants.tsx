@@ -1,0 +1,10 @@
+export const ADD_ROOM = 'add_room'
+export const ADD_ADULT = 'add_adult'
+export const ADD_CHILDREN = 'add_children'
+export const ADD_INFANT = 'add_infant'
+export const REMOVE_ROOM = 'remove_room'
+export const REMOVE_ADULT = 'remove_adult'
+export const REMOVE_CHILDREN = 'remove_children'
+export const REMOVE_INFANT = 'remove_infant'
+export const SELECT_CATEGORY= 'select_category'
+

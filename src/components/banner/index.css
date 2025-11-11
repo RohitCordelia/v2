@@ -1,0 +1,15 @@
+.bg-section-banner{
+    background-image: url("/public/assets/images/homepage/banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 700px
+}
+
+@media (max-width: 640px) {
+    .bg-section-banner{
+        background-image: url("/public/assets/images/homepage/banner_mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 500px
+    }
+}

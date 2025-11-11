@@ -1,0 +1,79 @@
+image: 
+  name: node:20.3.1
+pipelines:
+    default: 
+          - step:
+              name: Build
+              script:
+                 - npm install wrangler --global
+                 - yarn install
+                 - mv env.staging .env
+                 - npm run webpack-build
+               
+    branches:
+        staging:
+          - parallel:
+            - step:
+                name: Build and Deploy
+                script:
+                  - npm install wrangler --global
+                  - yarn install
+                  - wget https://staging.cordeliacruises.com/api/v2/contents/homepages.json
+                  - mv homepages.json src/pages/home/content1.json
+                  - mv env.staging .env
+                  - npm run webpack-build
+                  - CLOUDFLARE_ACCOUNT_ID=$ACCOUNT_ID npx wrangler pages publish ./build --branch=main --project-name=cordliademodep
+        develop:
+          - parallel:
+            - step:
+                name: Build and Deploy
+                
+                script:
+                  - npm -g config set user root
+                  - npm install wrangler --global
+                  - yarn install
+                  #- wget https://staging.cordeliacruises.com/api/v2/contents/homepages.json
+                  #- mv homepages.json src/pages/home/content1.json
+                  
+        master:
+            - step:
+                name: Build and Deploy
+                
+                script:
+                  #- npm -g config set user root
+                  #- npm install wrangler --global
+                  - yarn install
+                  - wget https://www.cordeliacruises.com/api/v2/contents/homepages.json
+                  - mv homepages.json src/pages/home/content.json
+                  - mv env.production .env
+                  - npm run webpack-build
+                  - mkdir packaged
+                  - tar -czvf packaged/package-${BITBUCKET_BUILD_NUMBER}.tar.gz -C ./build .
+                  
+                artifacts:
+                  - packaged/**
+            - parallel:
+
+                - step:
+                    name: Deploy to production
+                    image: atlassian/default-image:latest
+                    deployment: production
+                    script:
+                        - mkdir upload
+                        - tar -xf packaged/package-${BITBUCKET_BUILD_NUMBER}.tar.gz -C upload
+                        - rsync -a --delete upload/ $PRODUSERNAME@$PRODSERVER:/home/deploy/b2c-${BITBUCKET_BUILD_NUMBER}
+                        - ssh $PRODUSERNAME@$PRODSERVER "rm -r '/home/deploy/cordelia.com'"
+                        - ssh $PRODUSERNAME@$PRODSERVER "mv '/home/deploy/b2c-${BITBUCKET_BUILD_NUMBER}' '/home/deploy/cordelia.com'"
+                    
+                - step:
+                    name: Deploy to production2
+                    image: atlassian/default-image:latest
+                    deployment: production2
+                    script:
+                        - mkdir upload
+                        - tar -xf packaged/package-${BITBUCKET_BUILD_NUMBER}.tar.gz -C upload
+                        - rsync -a --delete upload/ $PRODUSERNAME@$PRODSERVER2:/home/deploy/b2c-${BITBUCKET_BUILD_NUMBER}
+                        - ssh $PRODUSERNAME@$PRODSERVER2 "rm -r '/home/deploy/cordelia.com'"
+                        - ssh $PRODUSERNAME@$PRODSERVER2 "mv '/home/deploy/b2c-${BITBUCKET_BUILD_NUMBER}' '/home/deploy/cordelia.com'"
+                    artifacts:
+                        - upload/**

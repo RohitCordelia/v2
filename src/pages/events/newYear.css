@@ -1,0 +1,162 @@
+/* --- The Line Container & SVG --- */
+.line-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Stretches the container to full width */
+  height: 100%; /* Stretches the container to full height */
+  z-index: 0; /* Places it behind the content */
+  pointer-events: none; /* Allows clicking on content through the SVG */
+}
+
+/* Makes the SVG element itself fill the container */
+.line-container svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* --- Line Styling --- */
+/* The faint, static background line */
+.line-base {
+  stroke: rgba(255, 120, 120, 0.2); /* A dim red color */
+  stroke-width: 1;
+}
+
+/* The moving glow line */
+.line-glow {
+  stroke-width: 1; /* Slightly thicker for a better effect */
+  /* This CSS filter adds the beautiful soft glow around the bright stroke */
+  filter: drop-shadow(0px 0px 8px #ff2525) drop-shadow(0px 0px 2px #ff2525)
+    drop-shadow(0px 0px 4px #ff2525);
+}
+
+/* --- Content Styling --- */
+.content-container {
+  position: relative;
+  z-index: 1; /* Places content on top of the line */
+}
+
+.content-section {
+  height: 80vh; /* Creates space for scrolling */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1.2rem;
+  /* max-width: 500px; */
+}
+
+/* Gallery Modal */
+.image-gallery-slide {
+  /* aspect-ratio: 1.08; */
+  height: 220px;
+}
+
+.image-gallery-slide img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover !important;
+  border-radius: 6px;
+}
+
+.image-gallery-icon {
+  border: 1px solid #fff !important;
+  border-radius: 50%;
+  padding: 4px !important;
+  background: #fafafa80 !important;
+}
+
+.image-gallery-icon svg {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.image-gallery-swipe {
+  /* width: 72%; */
+  margin: 0 auto;
+}
+
+.image-gallery-image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 640px) {
+  .image-gallery-slide {
+    aspect-ratio: 1.84;
+    height: auto;
+  }
+
+  .image-gallery-icon svg {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .image-gallery-swipe {
+    width: 88%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
+
+/* Animated Glow Border Container */
+.card-with-animated-border {
+  position: relative;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 4px;
+}
+
+.animated-border-box,
+.animated-border-box-reverse {
+  position: absolute;
+  inset: 1px;
+  border-radius: 10px;
+  overflow: hidden;
+  pointer-events: none; /* allows clicking through */
+}
+
+.animated-border-box:before,
+.animated-border-box-reverse:before,
+.animated-border-box-yellow:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 99999px;
+  height: 99999px;
+  transform: translate(-50%, -50%) rotate(0deg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-image: conic-gradient(rgba(0,0,0,0), #D66DFF, rgba(0,0,0,0) 50%);
+  animation: rotate 2s linear infinite;
+}
+
+.animated-border-box-yellow:before {
+  background-image: conic-gradient(rgba(0,0,0,0), #ecd561, rgba(0,0,0,0) 50%);
+}
+
+.animated-border-box-reverse:before {
+  background-image: conic-gradient(rgba(0,0,0,0), #23BDFF, rgba(0,0,0,0) 50%);
+  animation: rotate-reverse 2s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: translate(-50%, -50%) rotate(1turn);
+  }
+}
+
+@keyframes rotate-reverse {
+  100% {
+    transform: translate(-50%, -50%) rotate(-1turn);
+  }
+}

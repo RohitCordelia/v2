@@ -1,0 +1,38 @@
+.event-name {
+    background: -webkit-linear-gradient(180deg, rgba(253,187,45,1) 0%, rgba(174,2,2,1) 17%, rgba(255,19,23,1) 38%, rgba(194,90,35,1) 55%, rgba(151,104,25,1) 72%, rgba(169,55,55,1) 85%, rgba(174,101,7,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image-gallery-svg {
+    height: 30px !important;
+    width: 30px !important;
+    color: #000 !important;
+    background: #ffffffbd !important;
+    border-radius: 130px !important;
+}
+.image-gallery-svg:hover {
+    background: #ffffffbd !important;
+}
+
+.image-gallery-thumbnail {
+    width: 155px !important;
+}
+
+.image-gallery-thumbnails-wrapper.image-gallery-thumbnails-left, .image-gallery-thumbnails-wrapper.image-gallery-thumbnails-right {
+    width: 155px !important;
+}
+
+.image-gallery-slide-wrapper.image-gallery-thumbnails-left, .image-gallery-slide-wrapper.image-gallery-thumbnails-right {
+    width: calc(100% - 165px) !important;
+}
+
+.image-gallery-thumbnail .image-gallery-thumbnail-image {
+    border-radius: 5px;
+}
+.image-gallery-thumbnail.active, .image-gallery-thumbnail:focus {
+    border-radius: 5px;
+}
+.image-gallery-left-nav, .image-gallery-right-nav {
+    padding: 10px 10px !important;
+}

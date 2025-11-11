@@ -1,0 +1,144 @@
+.reviews .slick-track {
+  margin: 0 auto;
+}
+
+.destinations .slick-list {
+  padding: 20px 0;
+}
+
+.reviews .slick-list {
+  padding: 0px;
+}
+
+.reviews .slick-slide {
+  padding: 0 6px;
+}
+
+.reviews .slick-dots li {
+  margin: 0;
+}
+
+.reviews .slick-prev {
+  left: -60px;
+}
+
+.reviews .slick-prev::before {
+  color: #000;
+  font-size: 40px;
+}
+
+.reviews .slick-next::before {
+  color: #000;
+  font-size: 40px;
+}
+
+/*  */
+
+.theEmpressCabin .slick-prev {
+  left: -45px;
+}
+
+.theEmpressCabin .slick-prev::before,
+.theEmpressCabin .slick-next::before {
+  color: black;
+  font-size: 40px;
+}
+
+/* Tilted Slide */
+
+.mobileTiltedSlider .slick-slide {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Keeps the center slide normal */
+.mobileTiltedSlider .slick-center .slick-slide-custom {
+  transform: scale(1) rotate(0deg);
+  opacity: 1;
+}
+
+/* Left slide tilts to the left */
+.mobileTiltedSlider .slick-slide[aria-hidden="true"] .slick-slide-custom {
+  transform: rotate(-10deg);
+  opacity: 0.75;
+  bottom: -24px;
+  left: -32px;
+}
+
+/* Right slide tilts to the right */
+.mobileTiltedSlider .slick-active + .slick-slide .slick-slide-custom {
+  transform: rotate(10deg);
+  opacity: 0.75;
+  bottom: -24px;
+  left: 32px;
+}
+
+.mobileTiltedSlider .slick-slide {
+padding: 20px 0;
+}
+
+.desktopTiltedSlider .slick-prev {
+  left: -45px;
+}
+
+.desktopTiltedSlider .slick-prev::before,
+.desktopTiltedSlider .slick-next::before {
+  color: black;
+  font-size: 40px;
+}
+
+.clip-slant {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 75%);
+}
+
+.clip-slant-rev {
+  clip-path: polygon(0% 25%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.image-gallery-slide-wrapper {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (min-width: 1024px) {
+  .clip-slant {
+      clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 0% 100%);
+  }
+  
+  .clip-slant-rev {
+      clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+/*  */
+
+.newOffers .slick-slide {
+  padding: 0 6px;
+}
+
+.offersMain .slick-prev,
+.newOffers .slick-prev {
+  left: -60px;
+	z-index: 1;
+}
+
+.newOffers .slick-next {
+  right: -40px;
+	z-index: 1;
+}
+
+.offersMain .slick-prev::before,
+.newOffers .slick-prev::before {
+  color: #000;
+  font-size: 40px;
+}
+
+.offersMain .slick-next::before,
+.newOffers .slick-next::before {
+  color: #000;
+  font-size: 40px;
+}

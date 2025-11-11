@@ -1,0 +1,26 @@
+.custom-slick-slider .slick-prev {
+    left: -45px
+}
+
+/* .custom-slick-slider .slick-next {
+    right: -45px
+} */
+
+.custom-slick-slider .slick-prev::before,
+.custom-slick-slider .slick-next::before {
+    color: black;
+    font-size: 40px;
+}
+
+.custom-slick-slider.one-slide .slick-track,
+.custom-slick-slider.two-slides .slick-track {
+    width: 100% !important;
+}
+
+.custom-slick-slider.one-slide .slick-slide {
+    width: 50% !important;
+}
+
+.custom-slick-slider.two-slides .slick-slide {
+    width: 33% !important;
+}

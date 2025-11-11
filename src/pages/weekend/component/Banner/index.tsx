@@ -1,0 +1,362 @@
+import React, { useEffect, useState, useRef } from 'react';
+import "./index.css"
+import "./slick-customized.css"
+import { useNavigate } from 'react-router-dom';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { FormatAmount } from '/src/utils/formatter/formatter';
+import { TiggerFBContactEvent } from '../../../../components/Analytics/events';
+
+const ReactPlayer = React.lazy(() => import("react-player/vimeo"));
+
+const muteIcon = "https://images.cordeliacruises.com/cordelia_v2/public/assets/mute-new-icon.svg"
+const unmuteIcon = "https://images.cordeliacruises.com/cordelia_v2/public/assets/volume-new-icon.svg"
+
+type Props = {
+    itinerary: any,
+    data:any
+};
+
+interface SliderRefType {
+    slickGoTo: (index: number) => void;
+    slickNext: () => void;
+    slickPlay: () => void;
+    slickPause: () => void;
+}
+
+
+const CircleProgressBar = ({ totalTime, currentTime, isVideoPlaying, isPlaying, pauseEvent }: any) => {
+    const [progressPercentage, setProgressPercentage] = useState(0);
+
+    useEffect(() => {
+        if (totalTime) {
+            const percentage = ((currentTime) / totalTime) * 100;
+            setProgressPercentage(percentage);
+        } else {
+            setProgressPercentage(0);
+        }
+    })
+
+    const radius = 20;
+    const circumference = 2 * Math.PI * radius;
+
+    return (
+        <div className='relative cursor-pointer' onClick={() => pauseEvent()}>
+            <svg
+                className='h-[40px] w-[40px] lg:h-[47px] lg:w-[47px]'
+                viewBox="0 0 47 47"
+            >
+                <circle
+                    r={radius}
+                    cx={23.5}
+                    cy={23.5}
+                    fill="#000000a3"
+                    strokeWidth={3}
+                />
+                <circle
+                    r={radius}
+                    cx={23.5}
+                    cy={23.5}
+                    fill="transparent"
+                    stroke="#fff"
+                    strokeWidth={3}
+                    strokeDasharray={circumference}
+                    strokeDashoffset={circumference - (progressPercentage / 100) * circumference}
+                    strokeLinecap="round"
+                // transform="rotate(-90 23.5 23.5)"
+                />
+            </svg>
+            <div className='absolute' style={{
+                top: '50%',
+                left: '50%',
+                margin: 'auto',
+                transform: 'translate(-50%, -50%)'
+            }}>
+                <img
+                    className="h-[10px] lg:h-[15px]"
+                    src={`${isPlaying ? 'https://images.cordeliacruises.com/cordelia_v2/public/assets/pause-icon.svg' : 'https://images.cordeliacruises.com/cordelia_v2/public/assets/play-icon.svg'}`}
+                />
+            </div>
+        </div>
+    );
+};
+
+
+
+
+const ProgressBar = () => {
+    const [progress, setProgress] = useState(0);
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            if (progress < 100) {
+                setProgress(prevWidth => prevWidth + 22.2);
+            }
+        }, 1000);
+
+        return () => clearInterval(intervalId);
+    }, [progress]);
+
+    return (
+        <div>
+            <div className='w-full h-[7px] lg:h-[9px]' style={{
+                backgroundColor: '#ccc',
+                marginTop: '2px',
+                borderRadius: '5px',
+                textAlign: 'left',
+                overflow: 'hidden'
+            }}>
+                <div style={{
+                    width: `${progress}%`,
+                    height: '100%',
+                    backgroundColor: '#93288e',
+                    transition: 'width 1s linear',
+                    borderRadius: '5px',
+                }}></div>
+            </div>
+        </div>
+    );
+};
+
+
+export default function Banner({ itinerary, data }: Props) {
+    const { images, mobileImages } = data
+    let navigate = useNavigate()
+    const sliderRef = useRef<SliderRefType | null>(null);
+
+    const playerRef = useRef();
+
+    const [bannerIndex, setBannerIndex] = useState<any>(0);
+    const [activeBanner, setActiveBanner] = useState<any>();
+    const [isMute, setIsMute] = useState<any>(true);
+    const [isVideoReady, setIsVideoReady] = useState<any>(false);
+    const [bannerImage, setBannerImage] = useState<any>({});
+    const [isPlaying, setIsPlaying] = useState<any>(true);
+    const [isPlay, setIsPlay] = useState(false);
+    const [currentDuration, setCurrentDuration] = useState(0);
+
+    const SamplePrevArrow = (props: any) => {
+        const { className, style, onClick, currentSlide } = props;
+        return (
+            <div onClick={() => {
+                currentSlide == 0 ?
+                    sliderRef.current?.slickGoTo(bannerImage.length) :
+                    sliderRef.current?.slickGoTo(bannerIndex - 1)
+            }} className={`arrow ${className}`} >
+                <img className='drop-shadow-xl h-4 lg:h-8' src='https://images.cordeliacruises.com/cordelia_v2/public/assets/left-arrow.svg' alt='CordeliaCruise' title='Cordelia-Cruises' />
+            </div>
+        )
+    }
+
+    function SampleNextArrow(props: any) {
+        const { className, style, onClick, currentSlide } = props;
+        return (
+            <div onClick={() => {
+                currentSlide == (bannerImage.length - 1) ?
+                    sliderRef.current?.slickGoTo(0) :
+                    sliderRef.current?.slickGoTo(bannerIndex + 1)
+            }} className={`arrow ${className}`} >
+                <img className='drop-shadow-xl h-4 lg:h-8' src='https://images.cordeliacruises.com/cordelia_v2/public/assets/right-arrow.svg'  alt='Cordelia Cruises' title='Cordelia-Cruises' />
+            </div>
+        )
+    }
+
+    const sliderSettings = {
+        infinite: false,
+        slidesToShow: 1,
+        speed: 300,
+        dots: true,
+        beforeChange: (oldIndex: any, newIndex: any) => {
+            setBannerIndex(newIndex)
+        },
+        afterChange: (current: any) => {
+            setIsVideoReady(false)
+            sliderRef.current?.slickPlay()
+            setCurrentDuration(0)
+        },
+        nextArrow: <SampleNextArrow to="next" />,
+        prevArrow: <SamplePrevArrow to="prev" />,
+        customPaging: function (index: any) {
+            const slide = bannerImage[index];
+            if (slide.type === 'image') {
+                return (
+                    <div>
+                        {index == bannerIndex ?
+                            <ProgressBar />
+                            :
+                            <div
+                                className='h-[7px] lg:h-[9px] w-[7px] lg:w-[9px]'
+                                style={{
+                                    marginTop: 2,
+                                    borderRadius: '50%',
+                                    background: index == bannerIndex ? '#93288e' : '#ccc',
+                                    cursor: 'pointer',
+                                }}
+                            />
+                        }
+
+                    </div>
+                );
+            } else if (slide.type === 'video') {
+                return (
+                    <img className='w-[9px] lg:w-[11px]' src={`${index == bannerIndex ? 'https://images.cordeliacruises.com/cordelia_v2/public/assets/play-dot-purple-icon.svg' : 'https://images.cordeliacruises.com/cordelia_v2/public/assets/play-dot-icon.svg'}`} alt="" />
+                );
+            }
+        },
+    };
+
+    useEffect(() => {
+        if (window.innerWidth > 640) {
+            setBannerImage(images)
+        } else {
+            setBannerImage(mobileImages)
+        }
+    }, [])
+
+    useEffect(() => {
+        if (bannerImage[bannerIndex]) {
+            setActiveBanner(bannerImage[bannerIndex])
+            if (bannerImage[bannerIndex].type == 'video') {
+                setTimeout(() => {
+                    sliderRef.current.slickPause()
+                }, 1000);
+            } else {
+                sliderRef.current.slickPlay()
+            }
+        }
+    }, [bannerIndex, bannerImage])
+
+    const toggelMute = () => {
+        setIsMute((current: any) => !current)
+    }
+
+    const getDuration = playerRef?.current?.getDuration()
+
+    useEffect(() => {
+        let timeoutId: any;
+
+        if (bannerIndex === bannerImage.length - 1) {
+            timeoutId = setTimeout(() => {
+                sliderRef.current?.slickGoTo(0);
+            }, 4500);
+        }
+        return () => {
+            if (timeoutId) {
+                clearTimeout(timeoutId); // Clear the timeout if bannerIndex changes before it executes
+            }
+        };
+    }, [bannerIndex, bannerImage.length])
+
+    return (
+        <>
+            <div className="mt-0 homepage-banner">
+                <Slider
+                    ref={sliderRef}
+                    arrows={window.innerWidth > 640 ? true : false}
+                    autoplay={true}
+                    autoplaySpeed={4500}
+                    pauseOnHover={false}
+                    {...sliderSettings}
+                    className={
+                        "bannerCarouselSlider packagesCardSlider"
+                    }
+                >
+                    {bannerImage && bannerImage.length && bannerImage.map((slide: any, index: any) => {
+                        return (
+                            <div key={index} className='relative'>
+
+                                {slide.type === 'image' ? (
+                                    <a href={slide.link} className='cursor-pointer'>
+                                        <div
+                                            className='absolute top-0 left-0 w-full h-full'
+                                            style={{
+                                                background: 'linear-gradient(rgb(0 0 0 / 90%) 0%, rgba(9, 9, 121, 0) 40%, rgba(0, 212, 255, 0) 100%)'
+                                            }}
+                                        />
+                                        <img src={slide.url} alt={`Image ${index}`} />
+                                    </a>
+                                ) : slide.type === 'video' && slide.url == activeBanner?.url ? (
+                                    <div className="aspect-video-custom relative top-0">
+                                        {!isVideoReady &&
+                                            <div className='absolute top-0'>
+                                                <img src={slide.thumbnail} alt="" />
+                                            </div>
+                                        }
+                                        <ReactPlayer
+                                            ref={playerRef}
+                                            volume={1}
+                                            url={slide.url}
+                                            width="100%"
+                                            height="100%"
+                                            controls={false}
+                                            muted={isMute}
+                                            onPlay={() => {
+                                                setIsPlay(true)
+                                                setIsVideoReady(true);
+                                                sliderRef.current?.slickPause()
+                                            }}
+                                            onEnded={() => {
+                                                sliderRef.current?.slickNext();
+                                                sliderRef.current?.slickPlay()
+                                            }}
+                                            playing={isPlaying}
+                                            playsinline
+                                            progressInterval={1000}
+                                            onProgress={(progress: any) => {
+                                                let time = Math.floor(progress.playedSeconds)
+                                                if (currentDuration < time) {
+                                                    setCurrentDuration(time)
+                                                }
+                                            }}
+                                            onPause={() => setIsPlay(false)}
+                                        />
+                                        <div
+                                            className='absolute top-0 left-0 w-full h-full'
+                                            style={{
+                                                background: 'linear-gradient(rgb(0 0 0 / 90%) 0%, rgba(9, 9, 121, 0) 40%, rgba(0, 212, 255, 0) 100%)'
+                                            }}
+                                        />
+                                        <div className='absolute bottom-5 lg:bottom-[8rem] right-3 lg:right-[10rem] flex items-center'>
+                                            <div>
+                                                <img
+                                                    onClick={toggelMute}
+                                                    className="ml-5 h-8 lg:h-10 cursor-pointer"
+                                                    src={isMute ? muteIcon : unmuteIcon}
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className='absolute bottom-3 lg:bottom-[8rem] left-3 lg:left-[10rem] flex items-center'>
+                                            <div>
+                                                <CircleProgressBar totalTime={getDuration} currentTime={currentDuration} isVideoPlaying={isPlay} isPlaying={isPlaying} pauseEvent={() => setIsPlaying(!isPlaying)} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                ) : null}
+
+                                <div className='hidden absolute bottom-0 w-full bg-black/40 lg:flex py-4 justify-between items-center px-36'>
+                                    <div className='flex'>
+                                        <div>
+                                            <p className='text-white font-outfit font-medium text-base'>{itinerary?.nights} Nights - 1 Cabin</p>
+                                            <p className='text-white font-outfit text-xl mt-0 font-semibold'>{itinerary?.portName}</p>
+                                        </div>
+                                        <div className='border-l border-white mx-8' />
+                                        <div>
+                                            <p className='text-white font-outfit font-medium text-base'>
+                                                Price Starts from &nbsp;
+                                                {itinerary?.discount_pct != 0 ? <span className='line-through'> ₹{itinerary?.actual_starting_fare}&nbsp;</span> : null}
+                                            </p>
+                                            <p className='text-white font-outfit text-xl mt-0 font-semibold'>₹ {FormatAmount(itinerary?.starting_fare)}/ Per Person</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                   <a href="/select-itinerary?n=2,3&rt=true" className="cursor-pointer rounded bg-brand-primary text-white py-3 font-medium px-8">Book Now</a>
+          </div>
+                                </div>
+                            </div>
+                        )
+                    })}
+                </Slider>
+            </div>
+        </>
+    );
+}

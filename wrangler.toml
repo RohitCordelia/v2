@@ -1,0 +1,10 @@
+name = "cordelia_v2"
+type = "webpack"
+route = 'http://cordeliademo.com/*'
+account_id = ""
+zone_id = '427f2bf935a439e15753d0c5e80e29f6'
+usage_model = ''
+compatibility_flags = []
+workers_dev = false
+site = {bucket = "./build",entry-point = "workers-site"}
+compatibility_date = "2022-10-20"
